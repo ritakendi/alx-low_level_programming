@@ -4,7 +4,7 @@
  *
  *Return - Always 0 (success)
  */
-int main(0)
+int main(void)
 {
 	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
