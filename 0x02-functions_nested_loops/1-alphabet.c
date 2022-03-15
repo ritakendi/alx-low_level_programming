@@ -15,5 +15,4 @@ int main(void)
 		_putchar(alpha);
 	}
 	_putchar('\n');
-	return (0);
 }
