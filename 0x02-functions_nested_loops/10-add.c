@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * 10-add - adds two integers and returns the results
+ * add - adds two integers and returns the results
  *
  * @a: first number
  * @b: second number
@@ -9,7 +9,7 @@
 
 int add(int a, int b)
 {
-	
+
 	{
 		return (a + b);
 	}
