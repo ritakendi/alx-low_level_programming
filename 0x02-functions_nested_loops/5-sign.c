@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * _sign - prints the sign of a number.
+ * _sign - determines if input number 
+ * greater, equal or less than zero.
  *
- * @n: ASCII code character.
+ * @n: input number as integer.
  *
  * Return: if greater than 0 returns 1. if 0 returns 0. if less than 0, -1.
- *
  */
 
 int print_sign(int n)
@@ -17,7 +17,7 @@ int print_sign(int n)
 	}
 	else if (n < 0)
 	{
-		_putchar(48);
+		_putchar(45);
 		return (-1);
 	}
 	else
