@@ -20,10 +20,10 @@ int print_sign(int n)
 		_putchar(48);
 		return (0);
 	}
-	else (n < 0)
+	else 
 	{
-		_putchar(45);
+		_putchar(48);
 		return (-1);
 	}
-	_putchar('/n');
+	_putchar('\n');
 }
