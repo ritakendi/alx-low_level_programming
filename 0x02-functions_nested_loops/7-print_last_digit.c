@@ -2,9 +2,9 @@
 /**
  * print_last_digit - prints the last digit of a number
  *
- * @n: inputs number as an integer
+ * @n: digit to be tested
  *
- * Return: last digit.
+ * Return: value of the digit.
  */
 int print_last_digit(int n)
 {
