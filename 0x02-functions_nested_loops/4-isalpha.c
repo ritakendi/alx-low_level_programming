@@ -7,7 +7,7 @@
  * Return: 1 if c is a letter, lowercase or uppercase. returns 0 otherwise
  */
 
-int _islower(int c);
+ int _isalpha(int c)
 {
 	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
 	{
