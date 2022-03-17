@@ -27,9 +27,10 @@ int main(void)
 		}
 		else
 		{
-			printf(" % ", n);
+			printf(" %d ", n);
 		}
+	}
 		printf("\n");
 		return (0);
-	}
+	
 }
