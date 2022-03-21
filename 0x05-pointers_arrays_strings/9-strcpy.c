@@ -6,7 +6,7 @@
  * including the terminating \0
  * to the buffer pointed by dest
  * @dest: destination
- * src: source
+ * @src: source
  * Return: the pointer to dest
  */
 
