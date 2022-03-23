@@ -11,7 +11,7 @@ char *_strcat(char *dest, char *src)
 {
 	int ch1;
 	int ch2;
-	
+
 	ch1 = 0;
 	ch2 = 0;
 
@@ -19,7 +19,7 @@ char *_strcat(char *dest, char *src)
 	{
 		ch++;
 	}
-	while ( ch2 >= 0)
+	while (ch2 >= 0)
 	{
 		*(dest + ch1) = *(src + ch2);
 		if (*(src + ch2) == '\0')
