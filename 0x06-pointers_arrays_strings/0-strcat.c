@@ -9,8 +9,23 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	char dest[] = "Hello ";
-	char src[] = "World";
+	int ch1;
+	int ch2;
+	
+	ch1 = 0;
+	ch2 = 0;
 
-	strcat(dest, src);
+	while (*(dest + ch1) != '\0')
+	{
+		ch++;
+	}
+	while ( ch2 >= 0)
+	{
+		*(dest + ch1) = *(src + ch2);
+		if (*(src + ch2) == '\0')
+			break;
+		ch1++;
+		ch2++;
+	}
+	return (dest);
 }
