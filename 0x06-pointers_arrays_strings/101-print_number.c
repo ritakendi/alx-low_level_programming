@@ -24,7 +24,7 @@ void print_number(int n)
 
 	while (d > 9)
 	{
-		c /= 10;
+		d /= 10;
 		c *= 10;
 	}
 
