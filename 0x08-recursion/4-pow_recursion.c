@@ -1,4 +1,4 @@
-#incude "main.h"
+#include "main.h"
 /**
  * pow_recursion - returns power
  * @x: base
