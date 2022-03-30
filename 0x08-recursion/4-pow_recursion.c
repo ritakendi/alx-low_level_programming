@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * pow_recursion - returns power
+ * _pow_recursion - returns power
  * @x: base
  * @y: exponent
  */
