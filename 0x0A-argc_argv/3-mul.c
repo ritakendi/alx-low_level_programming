@@ -7,16 +7,16 @@
  * Return: 0 if okay, 1 if error input
  */
 
-int main(int argc, int *argv[])
+int main(int argc, char *argv[])
 {
-	if (argc != 3)
+	if (arg != 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
 	else
 	{
-		printf("%d\n", atoi(argv[1]), *atoi(argv[2]));
+		printf("%d\n", atoi(argv[1]) *atoi(argv[2]));
 		return (0);
 	}
 }
