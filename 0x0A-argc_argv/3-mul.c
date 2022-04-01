@@ -15,7 +15,7 @@ int main(int argc, int *argv[])
 	}
 	else
 	{
-		printf("%d\n", atoi(arg[1]), *atoi(argv[2]));
+		printf("%d\n", atoi(argv[1]), *atoi(argv[2]));
 		return (0);
 	}
 }
