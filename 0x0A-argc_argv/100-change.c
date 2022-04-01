@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
 int change(int cents)
 {
 	int q = 25, d = 10, n = 5, t = 2, p = 1;
-	int coins;
+	int coins = 0;
 
 	while (cents > 0)
 	{
