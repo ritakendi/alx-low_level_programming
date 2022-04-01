@@ -9,7 +9,7 @@
  */
 int main(int argc, char *argv[])
 {
-	if (argc != 1)
+	if (argc != 2)
 	{
 		printf("%s\n", "Error");
 		return (1);
@@ -53,7 +53,7 @@ int change(int cents)
 		while (cents >= t)
 		{
 			cents -= t;
-			coins++
+			coins++;
 		}
 		while (cents >= p)
 		{
