@@ -6,7 +6,7 @@
  * @name: dogs name
  * @age: dogs age
  * @owner: dogs owner
- * Return: NULL
+ * Return: struc dog. if fails NULL
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
@@ -19,7 +19,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		free(p_dog);
 		return (NULL);
 	}
-	for (lname = 0; name[lmame]; lname++)
+	for (lname = 0; name[lname]; lname++)
 		;
 
 	for (lowner = 0; owner[lowner]; lowner++)
@@ -27,6 +27,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	
 	p_dog->name = malloc(lname + 1);
 	p_dog->owner = malloc(lowner + 1);
+
 	if (!(p_dog->name) || !(p_dog->owner))
 	{
 		free(p_dog->name);
