@@ -23,11 +23,11 @@ dog_t *new_dog(char *name, float age, char *owner)
 	{
 		;
 	}
-	for (j = 0; owner[k]; k++)
+	for (k = 0; owner[k]; k++)
 	{
 		;
 	}
-	sore->name = malloc(j + 1);
+	store->name = malloc(j + 1);
 	store->owner = malloc(k + 1);
 	if (store->name == NULL || store->owner == NULL)
 	{
