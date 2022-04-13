@@ -1,5 +1,5 @@
 #include "3-calc.h"
-
+#include <stdlib.h>
 /**
  * op_add - adds two numbers.
  * @a: first number.
@@ -9,8 +9,9 @@
  */
 int op_add(int a, int b)
 {
-	return (a +b);
+	return (a + b);
 }
+
 /**
  * op_sub - substracts two numbers.
  * @a: first number.
@@ -22,6 +23,7 @@ int op_sub(int a, int b)
 {
 	return (a - b);
 }
+
 /**
  * op_mul - multiplies two numbers.
  * @a: first number.
@@ -29,11 +31,11 @@ int op_sub(int a, int b)
  *
  * Return: multiplication
  */
-
 int op_mul(int a, int b)
 {
 	return (a * b);
 }
+
 /**
  * op_div - divides two numbers.
  * @a: first number.
