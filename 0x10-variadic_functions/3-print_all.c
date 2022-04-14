@@ -33,9 +33,9 @@ void print_all(const char * const format, ...)
 				break;
 			case 'i':
 				printf("%d", va_arg(valist, int)), c = 1;
-				break;;
+				break;
 			case 'f':
-				printf("%f", va_arg(valist, double)), c=1;
+				printf("%f", va_arg(valist, double)), c = 1;
 				break;
 			case 's':
 				str = va_arg(valist, char *),  c = 1;
