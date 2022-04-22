@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * add_node - adds a new node at the beginning 
+ * add_node - adds a new node at the beginning
  * of a list_t list.
  * @head: head of the linked list
  * @str: string to store in the list.
@@ -24,6 +24,6 @@ list_t *add_node(list_t **head, const char *str)
 	new->len = nchar;
 	new->next = *head;
 	*head = new;
-	
+
 	return (*head);
 }
