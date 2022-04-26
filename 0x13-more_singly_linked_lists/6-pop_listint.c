@@ -6,7 +6,7 @@
  *
  * Return: head nodes data.
  */
-void pop_listint(listint_t **head)
+pop_listint(listint_t **head)
 {
 	int hnode;
 	listint_t *h;
@@ -14,7 +14,7 @@ void pop_listint(listint_t **head)
 
 	if (*head == NULL)
 		return (0);
-	
+
 	curr = *head;
 
 	hnode = curr->n;
