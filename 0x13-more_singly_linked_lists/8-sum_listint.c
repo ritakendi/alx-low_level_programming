@@ -8,7 +8,7 @@
  * Return: sum of all the data ().
  */
 
-int sum_listint(listint_t *head);
+int sum_listint(listint_t *head)
 {
 	int sum;
 
