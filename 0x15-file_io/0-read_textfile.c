@@ -6,10 +6,10 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * read-textfile - reads atext file and prints
+ * read_textfile - reads atext file and prints
  * @filename: pointer to a file
  * @letters: number of letters to read and print
- * @Return: actual number it could read
+ * Return: actual number it could read
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
@@ -22,7 +22,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	fd = open(filename, O_RDONLY);
 	if (fd == -1)
 		return (0);
-	buffer = malloc(sizeof(char) *letters);
+	buffer = malloc(sizeof(char) * letters);
 	if (buffer == NULL)
 	{
 		close(fd);
@@ -32,7 +32,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	close(fd);
 	if (lenr == -1)
 	{
-		free (buffer);
+		free(buffer);
 		return (0);
 	}
 	lenw = write(STDOUT_FILENO, buffer, lenr);
