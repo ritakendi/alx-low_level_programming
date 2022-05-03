@@ -6,8 +6,8 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * read_textfile - reads atext file and prints
- * @filename: pointer to a file
+ * read_textfile - reads a text file and prints
+ * @filename: pointer to file
  * @letters: number of letters to read and print
  * Return: actual number it could read
  */
@@ -37,7 +37,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	}
 	lenw = write(STDOUT_FILENO, buffer, lenr);
 	free(buffer);
-	if (lenw != lenw)
+	if (lenr != lenw)
 		return (0);
 	return (lenw);
 }
