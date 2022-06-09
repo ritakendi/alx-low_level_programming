@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * dlistint_len - returns the number of elements 
+ * dlistint_len - returns the number of elements
  * in a doouble linked list
  * @h: head of list
  * Return: number of nodes
