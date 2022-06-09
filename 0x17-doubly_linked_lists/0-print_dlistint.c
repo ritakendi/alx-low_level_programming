@@ -18,5 +18,13 @@ size_t print_dlistint(const dlistint_t *h);
 		count++;
 		p = p->next;
 	}
-	return(count);
+	return (count);
+
+	while (h != NULL)
+	{
+		print("%d", h->prev);
+		h++;
+		h = h->next;
+	}
+	return (count);
 }
